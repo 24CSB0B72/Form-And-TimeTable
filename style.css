@@ -1,0 +1,116 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp2292154.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    font-family: "Poppins";
+    flex: 1;
+    justify-content: space-around;
+  }
+  
+  .form {
+    outline: 3px solid yellow;
+    outline-offset: 15px;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    background-color: #090a0c;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: "Sixtyfour";
+  }
+  
+  .inputText {
+    font-size: 20px;
+    color: white;
+    background-color: #000000;
+    border: none;
+    outline: 3px solid #646400;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .button:hover {
+    color: #000000;
+    background-color: yellow;
+    border: none;
+    outline: 3px solid #646400;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100px;
+  }
+  
+  .button {
+    transition: color 0.3s ease, background-color 0.3s ease;
+    color: yellow;
+    background-color: black;
+    border: none;
+    outline: 3px solid #646400;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100px;
+    margin-left: auto;
+  }
+  
+  .textlbl {
+    font-weight: 700;
+  }
+  
+  .marquee {
+    top: 0;
+    background-color: yellow;
+    color: black;
+    font-family: "Sixtyfour";
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .timetable {
+    outline: 3px solid yellow;
+    outline-offset: 15px;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #090a0c;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid yellow;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+    align-self: center;
+    padding: 5px;
+  }
+  
+  table {
+    margin: 100px;
+  }
+  
+  .spl-row {
+    background-color: yellow;
+    color: #000000;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  
