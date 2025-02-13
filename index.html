@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour:SCAN@-8&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <marquee class="marquee">Welcome to the new year. Wish you have a very great year ahead. Fill this form ASAP.</marquee>
+  <center>
+    <h1>Registration Form</h1>
+  </center>
+  <div class="form">
+    <center>
+      <form action="">
+        <br>
+        <br>
+        <div class="textlbl">First Name:</div>
+        <input type="text" name="first name" class="inputText" />
+        <div class="textlbl">Last name:</div>
+        <input type="text" name="last name" class="inputText" />
+        <div class="textlbl">Email:</div>
+        <input type="text" name="email" class="inputText" />
+        <div class="textlbl">Address:</div>
+        <input type="text" name="address" class="inputText" />
+        <div class="textlbl">State:</div>
+        <input type="text" name="state" class="inputText" />
+        <div class="textlbl">Pincode:</div>
+        <input type="text" name="pincode" class="inputText" />
+        <br>
+        <div class="textlbl">Ph No.:</div>
+        <input type="text" name="phno" class="inputText" /><br>
+        <div class="textlbl">Age</div>
+        <input type="radio" name="age">15-20</input><br>
+        <input type="radio" name="age">20-25</input><br>
+        <input type="radio" name="age">25-30</input><br>
+        <br>
+        <div class="textlbl">Gender &nbsp</div>
+        <select name="gender" class="button">
+          <option value="male">male</option>
+          <option value="female">Female</option>
+          <option value="nosay">Rather not say</option>
+          <option value="none">none of these</option>
+        </select><br>
+        <div class="textlbl">Select your DOB &nbsp</div> <input type="datetime-local" class="button">
+        <br>
+        <div class="textlbl">Your Favourite Subject:</div> <br>
+        <input type="checkbox" name="interests">WP</input><br>
+        <input type="checkbox" name="interests">DSA</input><br>
+        <input type="checkbox" name="interests">DT</input><br>
+        <input type="checkbox" name="interests">BEEE</input><br>
+        <input type="checkbox" name="interests">Others</input><br>
+        <button type="button" class="button">submit</button>
+      </form>
+  </div>
+  <br><br><br>
+  <div class="timetable">
+    <table>
+      <th>CSE B</th>
+      <th>9:00-9:55</th>
+      <th>10:00-10:55</th>
+      <th>11:00-11:55</th>
+      <th>12:00-12:55</th>
+      <th>1:00-1:55</th>
+      <th>2:00-2:55</th>
+      <th>3:00-3:55</th>
+      <th>4:00-4:55</th>
+      <th>5:00-5:55</th>
+      <tr>
+        <td>Monday
+        <td>Math
+        <td>MFCS
+        <td>DSA
+        <td>OT
+        <td rowspan=3 class="spl-row">Lunch
+      </tr>
+      <tr>
+        <td>Tuesday
+        <td>Math
+        <td colspan=2>MFCS
+        <td>DSA
+        <td colspan=4>DT
+      </tr>
+      <tr>
+        <td>Wednesday
+        <td colspan=3>WP Lab
+        <td>Math
+        <td>BEEE
+      </tr>
+      <tr>
+        <td>Thursday
+        <td>
+        <td colspan=2>DS Lab
+        <td rowspan=2 class="spl-row">Lunch
+        <td>OT
+        <td>BEEE
+      </tr>
+      <tr>
+        <td>Friday
+        <td>
+        <td>
+        <td>BEEE
+        <td>DSA
+        <td>OT
+    </table>
+    <table>
+      <tr>
+        <th>BEEE - </th>
+        <td>Basic Electrical and Electronics Engineering (EE1161)</td>
+        <td>Prof. Ramakrishnan</td>
+        <td>9491824301
+      </tr>
+      <tr>
+        <th>MFCS - </th>
+        <td>Mathematical Foundations for Computer Science (CS1103)</td>
+        <td>Prof. Venkata Krishna Rao</td>
+        <td>9724597295
+      </tr>
+      <tr>
+        <th>OT - </th>
+        <td>Optimization Techniques (CS1304)</td>
+        <td>Prof. Sujit Das</td>
+        <td>9434588993
+      </tr>
+      <tr>
+        <th>DSA - </th>
+        <td>Data Structures and Algorithms (CS1102)</td>
+        <td>Prof. K. Ramesh</td>
+        <td>9849432598
+      </tr>
+      <tr>
+        <th>DT - </th>
+        <td>Design Thinking (CS1122)</td>
+        <td>Prof. Kadambari</td>
+        <td>9705460461
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
